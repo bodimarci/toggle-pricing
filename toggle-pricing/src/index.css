@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-[#F6F6FE];
+}
+
+.purpleCardBtn {
+  @apply mt-6 mb-10 w-[80%] rounded-lg border border-white bg-white py-3 text-sm text-[#696FDD] duration-200 hover:border hover:bg-transparent hover:text-white;
+}
+
+.whiteCardBtn {
+  @apply my-6 w-[80%] rounded-lg bg-gradient-to-r from-[#A3A8F0] to-[#696FDD] py-3 text-sm text-white duration-200 hover:border hover:border-[#696FDD]
+     hover:from-white hover:to-white hover:text-[#696FDD];
+}
